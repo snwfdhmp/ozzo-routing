@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"gitlab.ordoclic.fr/back/ozzo-routing"
+	"github.com/snwfdhmp/ozzo-routing"
 )
 
 // PanicHandler returns a handler that recovers from panics happened in the handlers following this one.
@@ -16,8 +16,8 @@ import (
 //
 //     import (
 //         "log"
-//         "gitlab.ordoclic.fr/back/ozzo-routing"
-//         "gitlab.ordoclic.fr/back/ozzo-routing/fault"
+//         "github.com/snwfdhmp/ozzo-routing"
+//         "github.com/snwfdhmp/ozzo-routing/fault"
 //     )
 //
 //     r := routing.New()

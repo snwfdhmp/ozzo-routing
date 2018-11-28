@@ -8,7 +8,7 @@ package fault
 import (
 	"net/http"
 
-	"gitlab.ordoclic.fr/back/ozzo-routing"
+	"github.com/snwfdhmp/ozzo-routing"
 )
 
 // ErrorHandler returns a handler that handles errors returned by the handlers following this one.
@@ -23,8 +23,8 @@ import (
 //
 //     import (
 //         "log"
-//         "gitlab.ordoclic.fr/back/ozzo-routing"
-//         "gitlab.ordoclic.fr/back/ozzo-routing/fault"
+//         "github.com/snwfdhmp/ozzo-routing"
+//         "github.com/snwfdhmp/ozzo-routing/fault"
 //     )
 //
 //     r := routing.New()

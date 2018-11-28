@@ -12,7 +12,7 @@ import (
 	"sort"
 	"strings"
 
-	"gitlab.ordoclic.fr/back/ozzo-routing"
+	"github.com/snwfdhmp/ozzo-routing"
 )
 
 // ServerOptions defines the possible options for the Server handler.
@@ -57,8 +57,8 @@ func init() {
 //
 //     import (
 //         "log"
-//         "gitlab.ordoclic.fr/back/ozzo-routing"
-//         "gitlab.ordoclic.fr/back/ozzo-routing/file"
+//         "github.com/snwfdhmp/ozzo-routing"
+//         "github.com/snwfdhmp/ozzo-routing/file"
 //     )
 //
 //     r := routing.New()

@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.ordoclic.fr/back/ozzo-routing"
+	"github.com/snwfdhmp/ozzo-routing"
 )
 
 // LogFunc logs a message using the given format and optional arguments.
@@ -33,8 +33,8 @@ type LogWriterFunc func(req *http.Request, res *LogResponseWriter, elapsed float
 //
 //     import (
 //         "log"
-//         "gitlab.ordoclic.fr/back/ozzo-routing"
-//         "gitlab.ordoclic.fr/back/ozzo-routing/access"
+//         "github.com/snwfdhmp/ozzo-routing"
+//         "github.com/snwfdhmp/ozzo-routing/access"
 //         "net/http"
 //     )
 //
@@ -67,8 +67,8 @@ func CustomLogger(loggerFunc LogWriterFunc) routing.Handler {
 //
 //     import (
 //         "log"
-//         "gitlab.ordoclic.fr/back/ozzo-routing"
-//         "gitlab.ordoclic.fr/back/ozzo-routing/access"
+//         "github.com/snwfdhmp/ozzo-routing"
+//         "github.com/snwfdhmp/ozzo-routing/access"
 //     )
 //
 //     r := routing.New()

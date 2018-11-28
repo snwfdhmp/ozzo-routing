@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"gitlab.ordoclic.fr/back/ozzo-routing"
+	"github.com/snwfdhmp/ozzo-routing"
 	"github.com/stretchr/testify/assert"
 )
 

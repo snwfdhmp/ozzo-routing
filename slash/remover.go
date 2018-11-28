@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strings"
 
-	"gitlab.ordoclic.fr/back/ozzo-routing"
+	"github.com/snwfdhmp/ozzo-routing"
 )
 
 // Remover returns a handler that removes the trailing slash (if any) from the requested URL.
@@ -20,8 +20,8 @@ import (
 //
 //     import (
 //         "net/http"
-//         "gitlab.ordoclic.fr/back/ozzo-routing"
-//         "gitlab.ordoclic.fr/back/ozzo-routing/slash"
+//         "github.com/snwfdhmp/ozzo-routing"
+//         "github.com/snwfdhmp/ozzo-routing/slash"
 //     )
 //
 //     r := routing.New()

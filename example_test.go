@@ -1,12 +1,12 @@
 package routing_test
 
 import (
-	"gitlab.ordoclic.fr/back/ozzo-routing"
-	"gitlab.ordoclic.fr/back/ozzo-routing/access"
-	"gitlab.ordoclic.fr/back/ozzo-routing/content"
-	"gitlab.ordoclic.fr/back/ozzo-routing/fault"
-	"gitlab.ordoclic.fr/back/ozzo-routing/file"
-	"gitlab.ordoclic.fr/back/ozzo-routing/slash"
+	"github.com/snwfdhmp/ozzo-routing"
+	"github.com/snwfdhmp/ozzo-routing/access"
+	"github.com/snwfdhmp/ozzo-routing/content"
+	"github.com/snwfdhmp/ozzo-routing/fault"
+	"github.com/snwfdhmp/ozzo-routing/file"
+	"github.com/snwfdhmp/ozzo-routing/slash"
 	"log"
 	"net/http"
 )
